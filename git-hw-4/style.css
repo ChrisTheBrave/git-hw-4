@@ -34,6 +34,7 @@ body {
 }
 .posts article {
   flex: 0 0 45%;
+  margin: 20px;
     /* DO NOT CHANGE THESE */
     background-color: #dddddd;
     border: 1px solid #444444;
@@ -51,7 +52,7 @@ body {
 }
 
 .sidebar section {
-  
+
 
     /* DO NOT CHANGE THESE */
     background-color: #dddddd;
