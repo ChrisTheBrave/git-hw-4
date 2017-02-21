@@ -23,9 +23,12 @@ body {
     color: #ffffff;
 }
 
+.container {
+  display: flex;
+}
 
 .posts {
-  flex: 1 0 30%;
+  flex: 3;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -34,7 +37,7 @@ body {
 }
 .posts article {
   flex: 0 0 45%;
-  margin: 20px;
+  margin: 20px 0;
     /* DO NOT CHANGE THESE */
     background-color: #dddddd;
     border: 1px solid #444444;
@@ -43,8 +46,10 @@ body {
 
 
 .sidebar {
+  flex: 1;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
 
     /* DO NOT CHANGE THESE */
     background-color: #aaaaaa;
@@ -52,8 +57,7 @@ body {
 }
 
 .sidebar section {
-
-
+  margin: 20px 0;
     /* DO NOT CHANGE THESE */
     background-color: #dddddd;
     border: 1px solid #444444;
@@ -67,28 +71,3 @@ footer {
     background-color: #444444;
     color: #eeeeee;
 }
-
-/*section.container {
-  display: flex;
-  justify-content: space-around;*/
-
-}
-
-/*.sidebar section {
-  display: flex;
-  justify-content: flex-end;
-}*/
-
-/*main.posts {
-  display: flex;*/
-  /*justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-}*/
-
-/*.posts {
-  flex: .5;
-}*/
- /*.posts article {
-  flex: 1 0 30%;
- }*/
