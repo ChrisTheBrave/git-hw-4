@@ -75,6 +75,7 @@ aside.sidebar {
 
 main.posts {
   display: flex;
+  justify-content: space-around;
 }
 
 /*.posts {
