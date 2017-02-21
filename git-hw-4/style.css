@@ -25,12 +25,15 @@ body {
 
 
 .posts {
-
+  flex: 1 0 30%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
     /* DO NOT CHANGE THESE */
     color: #444444;
 }
 .posts article {
-
+  flex: 0 0 45%;
     /* DO NOT CHANGE THESE */
     background-color: #dddddd;
     border: 1px solid #444444;
@@ -39,6 +42,8 @@ body {
 
 
 .sidebar {
+    display: flex;
+    justify-content: flex-end;
 
     /* DO NOT CHANGE THESE */
     background-color: #aaaaaa;
@@ -46,7 +51,7 @@ body {
 }
 
 .sidebar section {
-
+  
 
     /* DO NOT CHANGE THESE */
     background-color: #dddddd;
@@ -68,16 +73,21 @@ footer {
 
 }
 
-aside.sidebar {
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-main.posts {
+/*.sidebar section {
   display: flex;
-  justify-content: space-around;
-}
+  justify-content: flex-end;
+}*/
+
+/*main.posts {
+  display: flex;*/
+  /*justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}*/
 
 /*.posts {
   flex: .5;
 }*/
+ /*.posts article {
+  flex: 1 0 30%;
+ }*/
