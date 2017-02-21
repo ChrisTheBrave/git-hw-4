@@ -61,3 +61,22 @@ footer {
     background-color: #444444;
     color: #eeeeee;
 }
+
+/*section.container {
+  display: flex;
+  justify-content: space-around;*/
+
+}
+
+aside.sidebar {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+main.posts {
+  display: flex;
+}
+
+/*.posts {
+  flex: .5;
+}*/
