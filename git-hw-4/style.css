@@ -106,9 +106,19 @@ footer a {
   color: #ffffff;
 }
 
-/*@media screen and (min-width: 35em) {
+p {
+  padding-bottom: 1em;
+}
+
+
+
+@media screen and (min-width: 35em) {
   .container {display: flex;}
   .posts {display: flex;}
+}
 
-
-}*/
+@media screen and (min-width: 35em) and (max-width: 70em) {
+    .sidebar section { margin: 1em 1em;}
+    .sidebar {flex-direction: row;}
+    p {text-align: end;}
+}
