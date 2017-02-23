@@ -47,9 +47,9 @@ body {
     margin: 0 auto;
 }
 
-section.container{
+/*section.container{
   display: block;
-}
+}*/
 
 .hero a {
   text-decoration: none;
@@ -120,5 +120,16 @@ p {
 @media screen and (min-width: 35em) and (max-width: 70em) {
     .sidebar section { margin: 1em 1em;}
     .sidebar {flex-direction: row;}
+    section.container{
+      display: block;
+    }
     p {text-align: end;}
+}
+
+@media screen and (min-width: 75em) {
+  .sidebar {flex-direction: column;}
+  aside.sidebar {display: flex;
+              flex-direction: column;
+  }
+  p {text-align: end;}
 }
