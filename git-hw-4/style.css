@@ -7,16 +7,16 @@
   background-color: #444444; }
   .hero h1 {
     /* DO NOT CHANGE THESE */
-    color: #ffffff; }
-  .hero .hero nav {
+    color: white; }
+  .hero nav {
     align-self: flex-end;
     margin-bottom: .5em; }
-  .hero .hero ul {
+  .hero ul {
     list-style: none;
     display: flex; }
-  .hero .hero li {
+  .hero li {
     margin-right: 1em; }
-  .hero .hero a {
+  .hero a {
     text-decoration: none;
     color: #ffffff; }
 
