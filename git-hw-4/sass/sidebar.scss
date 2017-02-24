@@ -1,0 +1,35 @@
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    /* DO NOT CHANGE THESE */
+    background-color: $sidebarBkgrndColor;
+    color: $sidebarFooterColor;
+
+    section {
+      width: 90%;
+      margin: 1em 0;
+      /* DO NOT CHANGE THESE */
+      background-color: $sidebarsectBkgrnColor;
+      border: 1px solid $sidebarFooterColor;
+      height: 10em; /* this is just so we can see the articles since they have no content */
+    }
+}
+
+@media screen and (min-width: 35em) and (max-width: 70em) {
+    .sidebar section { margin: 1em 1em;}
+    .sidebar {flex-direction: row;}
+    section.container{
+      display: block;
+    }
+}
+
+@media screen and (min-width: 75em) {
+  .sidebar {flex-direction: column;}
+  aside.sidebar {display: flex;
+              flex-direction: column;
+  }
+}

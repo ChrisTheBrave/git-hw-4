@@ -1,0 +1,7 @@
+
+@media screen and (min-width: 70em) {
+  .sidebar {flex-direction: column;}
+  aside.sidebar {display: flex;
+              flex-direction: column;
+  }
+}

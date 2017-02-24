@@ -1,0 +1,23 @@
+
+
+.posts {
+    /*display: flex;*/
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 3;
+    /* DO NOT CHANGE THESE */
+    color: #444444;
+
+    article {
+      flex: 0 0 40%;
+      margin: 1em 0;
+      /* DO NOT CHANGE THESE */
+      background-color: #dddddd;
+      border: 1px solid #444444;
+      height: 20em; /* this is just so we can see the articles since they have no content */
+    }
+}
+
+@media screen and (max-width: 35em) {
+  .posts {display: flex;}
+}
